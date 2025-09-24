@@ -1,0 +1,7 @@
+###
+GET http://localhost:8080/user/hello
+Authorization: Basic admin 123456
+
+###
+POST http://localhost:8080/user/hello?name=Ricardo
+Authorization: Basic admin 123456
